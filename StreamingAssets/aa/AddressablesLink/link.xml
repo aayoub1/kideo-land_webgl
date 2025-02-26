@@ -25,7 +25,6 @@
     <type fullname="BasicPopup" preserve="all" />
     <type fullname="Bird" preserve="all" />
     <type fullname="Board" preserve="all" />
-    <type fullname="BombHandler" preserve="all" />
     <type fullname="Boundry" preserve="all" />
     <type fullname="BubbleHandler" preserve="all" />
     <type fullname="BubbleMotion" preserve="all" />
@@ -61,6 +60,7 @@
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguePanel" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguePlayAsPanel" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialogueSceneController" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueSelectionController" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguesRepository" preserve="all" />
     <type fullname="com.kideo.gameinfra.text.SyntaxHighlighter.SyntaxHighlighter" preserve="all" />
     <type fullname="com.kideo.kideoland.CharacterInfo" preserve="all" />
@@ -104,7 +104,6 @@
     <type fullname="com.kideo.learn.english.DayNightActivityManagement" preserve="all" />
     <type fullname="com.kideo.learn.english.DayNightGameManager" preserve="all" />
     <type fullname="com.kideo.learn.english.DayNightObj" preserve="all" />
-    <type fullname="com.kideo.learn.english.DetectC" preserve="all" />
     <type fullname="com.kideo.learn.english.DialogueLevelIcon" preserve="all" />
     <type fullname="com.kideo.learn.english.DocumentSubTaskCell" preserve="all" />
     <type fullname="com.kideo.learn.english.DraggableLineRenderer" preserve="all" />
@@ -130,6 +129,7 @@
     <type fullname="com.kideo.learn.english.GridLayoutController" preserve="all" />
     <type fullname="com.kideo.learn.english.ImageSubTaskCell" preserve="all" />
     <type fullname="com.kideo.learn.english.LaserController" preserve="all" />
+    <type fullname="com.kideo.learn.english.LeaderBoard.VTLeaderBoardEntry" preserve="all" />
     <type fullname="com.kideo.learn.english.LenearTimerScript" preserve="all" />
     <type fullname="com.kideo.learn.english.LetterGridSelectionEntry" preserve="all" />
     <type fullname="com.kideo.learn.english.LetterGridSelectionGameManager" preserve="all" />
@@ -162,7 +162,6 @@
     <type fullname="com.kideo.learn.english.MatchTestWord" preserve="all" />
     <type fullname="com.kideo.learn.english.MemoryActivityManagerScript" preserve="all" />
     <type fullname="com.kideo.learn.english.MoleActivityManager" preserve="all" />
-    <type fullname="com.kideo.learn.english.MoveForward" preserve="all" />
     <type fullname="com.kideo.learn.english.NewBubblesAreaHandler" preserve="all" />
     <type fullname="com.kideo.learn.english.NewMemoryCardsPositioner" preserve="all" />
     <type fullname="com.kideo.learn.english.NewMemoryGameManager" preserve="all" />
@@ -188,7 +187,7 @@
     <type fullname="com.kideo.learn.english.RadarQuarter" preserve="all" />
     <type fullname="com.kideo.learn.english.RcLevelIcon" preserve="all" />
     <type fullname="com.kideo.learn.english.ReadingComprehensionTaskManager" preserve="all" />
-    <type fullname="com.kideo.learn.english.RocketDetector" preserve="all" />
+    <type fullname="com.kideo.learn.english.Rocket" preserve="all" />
     <type fullname="com.kideo.learn.english.RocketGameManager" preserve="all" />
     <type fullname="com.kideo.learn.english.RocketsActivityManagement" preserve="all" />
     <type fullname="com.kideo.learn.english.RotateAirplane" preserve="all" />
@@ -236,9 +235,11 @@
     <type fullname="ContextWithMissingWordQuestion" preserve="all" />
     <type fullname="ContextWithMissingWordTest" preserve="all" />
     <type fullname="ControlsOverlay" preserve="all" />
+    <type fullname="ControlsOverlayPositioner" preserve="all" />
     <type fullname="CountDownTimer" preserve="all" />
+    <type fullname="CountrySelectButton" preserve="all" />
+    <type fullname="CountrySelectController" preserve="all" />
     <type fullname="CreateWordsTemplate" preserve="all" />
-    <type fullname="Crosstales.RTVoice.Tool.SpeechText" preserve="all" />
     <type fullname="CrosswordMissedWords" preserve="all" />
     <type fullname="CrossWords.CrossWordsGenerator" preserve="all" />
     <type fullname="CutsceneController" preserve="all" />
@@ -250,6 +251,7 @@
     <type fullname="DialogueEntry" preserve="all" />
     <type fullname="DialogueEntryOptionsRecorder" preserve="all" />
     <type fullname="DialoguePanel" preserve="all" />
+    <type fullname="DialogueSelectionButton" preserve="all" />
     <type fullname="DragDrop" preserve="all" />
     <type fullname="DragonflyAnimation" preserve="all" />
     <type fullname="DynamicGrid" preserve="all" />
@@ -284,7 +286,6 @@
     <type fullname="HardWorkerPanel" preserve="all" />
     <type fullname="HeartTimer" preserve="all" />
     <type fullname="HelpPopUpHandler" preserve="all" />
-    <type fullname="HelpRocketHandler" preserve="all" />
     <type fullname="HorizontalLayoutLangHandler" preserve="all" />
     <type fullname="IndieStudio.EnglishTracingBook.Game.AudioSources" preserve="all" />
     <type fullname="IndieStudio.EnglishTracingBook.Game.BlackArea" preserve="all" />
@@ -345,6 +346,7 @@
     <type fullname="MenuPanel" preserve="all" />
     <type fullname="MoleController" preserve="all" />
     <type fullname="MonkeyPartClick" preserve="all" />
+    <type fullname="MonthlyStarsController" preserve="all" />
     <type fullname="MovingBoards" preserve="all" />
     <type fullname="MultipleChoicesTask" preserve="all" />
     <type fullname="NewLoginController" preserve="all" />
@@ -370,6 +372,7 @@
     <type fullname="PlayerController" preserve="all" />
     <type fullname="PlayerInfoPanel" preserve="all" />
     <type fullname="PlayerMovement" preserve="all" />
+    <type fullname="PlayersTableController" preserve="all" />
     <type fullname="Podium" preserve="all" />
     <type fullname="PointsOrderingPositioner" preserve="all" />
     <type fullname="PreviewCloser" preserve="all" />
@@ -388,6 +391,7 @@
     <type fullname="RaceRoute" preserve="all" />
     <type fullname="Raft" preserve="all" />
     <type fullname="Randomize_Animation_Starting_Time" preserve="all" />
+    <type fullname="RegionToggle" preserve="all" />
     <type fullname="ReunionManager" preserve="all" />
     <type fullname="RingsActivityManagement" preserve="all" />
     <type fullname="RingsGameManager" preserve="all" />
@@ -416,6 +420,7 @@
     <type fullname="SetPlayerPrefsParameter" preserve="all" />
     <type fullname="SettingsPopupController" preserve="all" />
     <type fullname="ShakeScript" preserve="all" />
+    <type fullname="SharkFollowPlayer" preserve="all" />
     <type fullname="SharkNavigation" preserve="all" />
     <type fullname="SharksGamePlay" preserve="all" />
     <type fullname="SharksManagement" preserve="all" />
@@ -450,6 +455,7 @@
     <type fullname="TestsScoreFeedback" preserve="all" />
     <type fullname="TetrisAnimationManager" preserve="all" />
     <type fullname="TextMeshProOrdering" preserve="all" />
+    <type fullname="TextToggle" preserve="all" />
     <type fullname="Tile" preserve="all" />
     <type fullname="TileData" preserve="all" />
     <type fullname="Timer" preserve="all" />
@@ -472,7 +478,6 @@
     <type fullname="UIHandler" preserve="all" />
     <type fullname="UIRefData" preserve="all" />
     <type fullname="UIRefHandler" preserve="all" />
-    <type fullname="UITestScript" preserve="all" />
     <type fullname="UnitTest" preserve="all" />
     <type fullname="UnityEngine.UI.Extensions.RadialLayout" preserve="all" />
     <type fullname="UnityEngine.UI.LetterSpacing" preserve="all" />
@@ -506,6 +511,8 @@
     <type fullname="WordsMatchingQuizManagement" preserve="all" />
     <type fullname="WordsOnBoardManager" preserve="all" />
     <type fullname="YesNoPopup" preserve="all" />
+    <type fullname="Civilization" preserve="nothing" serialized="true" />
+    <type fullname="ObjectGroup" preserve="nothing" serialized="true" />
     <type fullname="CategoryGroupInfo" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Hint" preserve="nothing" serialized="true" />
     <type fullname="AnimatorInfo" preserve="nothing" serialized="true" />
@@ -521,8 +528,6 @@
     <type fullname="ItemCostInfo" preserve="nothing" serialized="true" />
     <type fullname="LocalizedSpriteInfo" preserve="nothing" serialized="true" />
     <type fullname="SpriteInfo" preserve="nothing" serialized="true" />
-    <type fullname="Crosstales.RTVoice.Model.VoiceAlias" preserve="nothing" serialized="true" />
-    <type fullname="Crosstales.RTVoice.SpeechTextStartEvent" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/AuthorizationCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/AvailabilityCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/ErrorCallback" preserve="nothing" serialized="true" />
@@ -556,7 +561,6 @@
     <type fullname="CutSceneData" preserve="nothing" serialized="true" />
     <type fullname="DialogueEntryInfo" preserve="nothing" serialized="true" />
     <type fullname="DialogueInfo" preserve="nothing" serialized="true" />
-    <type fullname="ObjectGroup" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Round/InstructionData" preserve="nothing" serialized="true" />
     <type fullname="IndieStudio.EnglishTracingBook.Game.ShapesManager/Shape" preserve="nothing" serialized="true" />
     <type fullname="LetterDisplayColors" preserve="nothing" serialized="true" />
@@ -565,7 +569,6 @@
     <type fullname="LetterAsset" preserve="nothing" serialized="true" />
     <type fullname="LettersDisplaySetting" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.LettersSliderTracingRound/TexturesData" preserve="nothing" serialized="true" />
-    <type fullname="Civilization" preserve="nothing" serialized="true" />
     <type fullname="SoundRepositroy/NamedSound" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.LetterRowData" preserve="nothing" serialized="true" />
   </assembly>
@@ -577,12 +580,15 @@
     <type fullname="AstarPath" preserve="all" />
     <type fullname="Pathfinding.AIDestinationSetter" preserve="all" />
     <type fullname="Pathfinding.AIPath" preserve="all" />
+    <type fullname="Pathfinding.FunnelModifier" preserve="all" />
     <type fullname="Pathfinding.Seeker" preserve="all" />
     <type fullname="Pathfinding.AstarColor" preserve="nothing" serialized="true" />
     <type fullname="Pathfinding.AstarData" preserve="nothing" serialized="true" />
     <type fullname="Pathfinding.AutoRepathPolicy" preserve="nothing" serialized="true" />
-    <type fullname="Pathfinding.EuclideanEmbedding" preserve="nothing" serialized="true" />
     <type fullname="Pathfinding.GraphMask" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.Graphs.Navmesh.NavmeshUpdates" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.Graphs.Util.EuclideanEmbedding" preserve="nothing" serialized="true" />
+    <type fullname="Pathfinding.RVO.RVODestinationCrowdedBehavior" preserve="nothing" serialized="true" />
     <type fullname="Pathfinding.StartEndModifier" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Febucci.TextAnimator.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
@@ -645,10 +651,10 @@
   <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.SpriteShape" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteShapeController" preserve="all" />
-    <type fullname="UnityEngine.U2D.AngleRange" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.U2D.CornerSprite" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.U2D.Spline" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.U2D.SplineControlPoint" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.AngleRange" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.CornerSprite" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -701,14 +707,14 @@
     <type fullname="TMPro.TMP_InputField" preserve="all" />
     <type fullname="TMPro.TMP_SpriteAsset" preserve="all" />
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/OnChangeEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/SelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -773,12 +779,12 @@
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
-    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.String]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[CharacterAnimatorEvents/EventName]" preserve="nothing" serialized="true" />
@@ -849,13 +855,13 @@
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
@@ -879,6 +885,7 @@
     <type fullname="UnityEngine.UI.Extensions.HorizontalScrollSnap" preserve="all" />
     <type fullname="UnityEngine.UI.Extensions.PaginationManager" preserve="all" />
     <type fullname="UnityEngine.UI.Extensions.ScrollSnap" preserve="all" />
+    <type fullname="UnityEngine.UI.Extensions.ScrollSnapScrollbarHelper" preserve="all" />
     <type fullname="UnityEngine.UI.Extensions.SoftMaskScript" preserve="all" />
     <type fullname="UnityEngine.UI.Extensions.ScrollSnapBase/SelectionChangeEndEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Extensions.ScrollSnapBase/SelectionChangeStartEvent" preserve="nothing" serialized="true" />
