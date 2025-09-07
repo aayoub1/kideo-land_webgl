@@ -44,6 +44,7 @@
     <type fullname="CheckOverlap" preserve="all" />
     <type fullname="ChoiceClick" preserve="all" />
     <type fullname="CinematicEventsInvoker" preserve="all" />
+    <type fullname="CivilizationIsland" preserve="all" />
     <type fullname="CivilizationIslandIcon" preserve="all" />
     <type fullname="CivilizationsRepository" preserve="all" />
     <type fullname="ClickHandeler" preserve="all" />
@@ -519,6 +520,7 @@
     <type fullname="YesNoPopup" preserve="all" />
     <type fullname="CategoryGroupInfo" preserve="nothing" serialized="true" />
     <type fullname="Civilization" preserve="nothing" serialized="true" />
+    <type fullname="IslandGroup" preserve="nothing" serialized="true" />
     <type fullname="ObjectGroup" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Hint" preserve="nothing" serialized="true" />
     <type fullname="AnimatorInfo" preserve="nothing" serialized="true" />
