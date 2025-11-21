@@ -4,6 +4,7 @@
     <type fullname="ActivitiesData" preserve="all" />
     <type fullname="ActivityListPanel" preserve="all" />
     <type fullname="ActivitySpawner" preserve="all" />
+    <type fullname="AIDialogueMapIcon" preserve="all" />
     <type fullname="AnchorGameObject" preserve="all" />
     <type fullname="AnimalFactory" preserve="all" />
     <type fullname="AnimalHelpButton" preserve="all" />
@@ -16,10 +17,12 @@
     <type fullname="animationTargetScript" preserve="all" />
     <type fullname="AppVersion" preserve="all" />
     <type fullname="Assets.Activities.CrossWords.Scripts.ActivityManager" preserve="all" />
+    <type fullname="AuthLoginButton" preserve="all" />
     <type fullname="AutoSizeLayoutScrollFlow" preserve="all" />
     <type fullname="AvatarBuilder" preserve="all" />
     <type fullname="AvatarBuilderEffectController" preserve="all" />
     <type fullname="AvatarDrag" preserve="all" />
+    <type fullname="BackgroundMusic" preserve="all" />
     <type fullname="BalloonMovement" preserve="all" />
     <type fullname="Base.CameraFitter.CameraSmartFitter" preserve="all" />
     <type fullname="BasicPopup" preserve="all" />
@@ -55,13 +58,19 @@
     <type fullname="CoinsCounter" preserve="all" />
     <type fullname="ColorsLibrary" preserve="all" />
     <type fullname="com.kideo.gameinfra.controls.MultiValueToggle" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.AIDialogueController" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.AIDialoguesRepository" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.CharacterCard" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialogueEntry" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialogueMicController" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguePanel" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguePlayAsPanel" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueResultsPopup" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialogueSceneController" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialogueSelectionController" preserve="all" />
     <type fullname="com.kideo.gameinfra.Dialogue.DialoguesRepository" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.LipSyncResolver" preserve="all" />
+    <type fullname="com.kideo.gameinfra.Dialogue.VoiceWaveBars" preserve="all" />
     <type fullname="com.kideo.gameinfra.text.SyntaxHighlighter.SyntaxHighlighter" preserve="all" />
     <type fullname="com.kideo.kideoland.CharacterInfo" preserve="all" />
     <type fullname="com.kideo.learn.english.ActivitiesPool" preserve="all" />
@@ -104,7 +113,6 @@
     <type fullname="com.kideo.learn.english.DayNightActivityManagement" preserve="all" />
     <type fullname="com.kideo.learn.english.DayNightGameManager" preserve="all" />
     <type fullname="com.kideo.learn.english.DayNightObj" preserve="all" />
-    <type fullname="com.kideo.learn.english.DialogueLevelIcon" preserve="all" />
     <type fullname="com.kideo.learn.english.DocumentSubTaskCell" preserve="all" />
     <type fullname="com.kideo.learn.english.DraggableLineRenderer" preserve="all" />
     <type fullname="com.kideo.learn.english.DragHandler" preserve="all" />
@@ -184,7 +192,6 @@
     <type fullname="com.kideo.learn.english.RadarGameManager" preserve="all" />
     <type fullname="com.kideo.learn.english.RadarObjectController" preserve="all" />
     <type fullname="com.kideo.learn.english.RadarQuarter" preserve="all" />
-    <type fullname="com.kideo.learn.english.RcLevelIcon" preserve="all" />
     <type fullname="com.kideo.learn.english.ReadingComprehensionTaskManager" preserve="all" />
     <type fullname="com.kideo.learn.english.Rocket" preserve="all" />
     <type fullname="com.kideo.learn.english.RocketGameManager" preserve="all" />
@@ -215,6 +222,12 @@
     <type fullname="com.kideo.learn.english.TetrisIntro" preserve="all" />
     <type fullname="com.kideo.learn.english.TextCellsPanelController" preserve="all" />
     <type fullname="com.kideo.learn.english.TextSubTaskCell" preserve="all" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.SubtaskSummaryRow" preserve="all" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.TreasureIslandCaregoryArea" preserve="all" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.TreasureIslandSceneController" preserve="all" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.TreasureIslandSubtaskCard" preserve="all" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.TreasureIslandTaskSummary" preserve="all" />
+    <type fullname="com.kideo.learn.english.tts.GoogleTextToSpeechWrapper" preserve="all" />
     <type fullname="com.kideo.learn.english.TurtleIslandBaseManager" preserve="all" />
     <type fullname="com.kideo.learn.english.TurtleIslandGameManager" preserve="all" />
     <type fullname="com.kideo.learn.english.TurtleScript" preserve="all" />
@@ -249,6 +262,7 @@
     <type fullname="DevTestToolController" preserve="all" />
     <type fullname="DialogueEntry" preserve="all" />
     <type fullname="DialogueEntryOptionsRecorder" preserve="all" />
+    <type fullname="DialogueMapIcon" preserve="all" />
     <type fullname="DialoguePanel" preserve="all" />
     <type fullname="DialogueSelectionButton" preserve="all" />
     <type fullname="DragDrop" preserve="all" />
@@ -256,6 +270,7 @@
     <type fullname="DynamicGrid" preserve="all" />
     <type fullname="EggController" preserve="all" />
     <type fullname="EmailSignup" preserve="all" />
+    <type fullname="EntranceEffect" preserve="all" />
     <type fullname="FailureFeedbackPopup" preserve="all" />
     <type fullname="FakeImgObj" preserve="all" />
     <type fullname="FfmpegUnity.ImageFfmpegCommand" preserve="all" />
@@ -270,6 +285,7 @@
     <type fullname="FishingWavesClick" preserve="all" />
     <type fullname="FloatingAnimation" preserve="all" />
     <type fullname="FollowPlayer" preserve="all" />
+    <type fullname="FrostweepGames.Plugins.GoogleCloud.TextToSpeech.GCTextToSpeech" preserve="all" />
     <type fullname="Game" preserve="all" />
     <type fullname="GameInfra.B2CPager" preserve="all" />
     <type fullname="GameInfra.GuestModeConfig" preserve="all" />
@@ -326,6 +342,7 @@
     <type fullname="ItemsCostsData" preserve="all" />
     <type fullname="KeyboardShiftButton" preserve="all" />
     <type fullname="KideoLandMapController" preserve="all" />
+    <type fullname="KideoLandMapIcon" preserve="all" />
     <type fullname="KideoLandStartSceneController" preserve="all" />
     <type fullname="KKSpeech.SpeechRecognizerListener" preserve="all" />
     <type fullname="LandingPageController" preserve="all" />
@@ -337,7 +354,7 @@
     <type fullname="LettersSpawner" preserve="all" />
     <type fullname="LettersSpritesDataScriptableObject" preserve="all" />
     <type fullname="LetterWordListPanel" preserve="all" />
-    <type fullname="LevelIcon" preserve="all" />
+    <type fullname="LevelMapIcon" preserve="all" />
     <type fullname="LifeBarScript" preserve="all" />
     <type fullname="LoadingPanel" preserve="all" />
     <type fullname="LocalizedText" preserve="all" />
@@ -378,6 +395,7 @@
     <type fullname="PlayersTableController" preserve="all" />
     <type fullname="Podium" preserve="all" />
     <type fullname="PointsOrderingPositioner" preserve="all" />
+    <type fullname="PopupEffect" preserve="all" />
     <type fullname="PreviewCloser" preserve="all" />
     <type fullname="PreviewShower" preserve="all" />
     <type fullname="PrivacyPolicyPanel" preserve="all" />
@@ -389,10 +407,12 @@
     <type fullname="ProfileViewButton" preserve="all" />
     <type fullname="ProgressBar" preserve="all" />
     <type fullname="ProgressbarScript" preserve="all" />
+    <type fullname="ProgressBarWithMarkers" preserve="all" />
     <type fullname="PuzzlePiece" preserve="all" />
     <type fullname="RaceRoute" preserve="all" />
     <type fullname="Raft" preserve="all" />
     <type fullname="Randomize_Animation_Starting_Time" preserve="all" />
+    <type fullname="ReadingComprehensionMapIcon" preserve="all" />
     <type fullname="RegionToggle" preserve="all" />
     <type fullname="ReunionManager" preserve="all" />
     <type fullname="RingsActivityManagement" preserve="all" />
@@ -408,7 +428,6 @@
     <type fullname="SceneController" preserve="all" />
     <type fullname="SceneNavigatorHandler" preserve="all" />
     <type fullname="ScoreCounter" preserve="all" />
-    <type fullname="ScoreStars" preserve="all" />
     <type fullname="ScreenEdgeColliders" preserve="all" />
     <type fullname="ScreenFadeEffect" preserve="all" />
     <type fullname="ScrollMechanic" preserve="all" />
@@ -456,6 +475,7 @@
     <type fullname="SubscriptionButtonsController" preserve="all" />
     <type fullname="TaskSubmitButton" preserve="all" />
     <type fullname="TestGameScript" preserve="all" />
+    <type fullname="TestMapIcon" preserve="all" />
     <type fullname="TestScoreEntery" preserve="all" />
     <type fullname="TestsScoreFeedback" preserve="all" />
     <type fullname="TetrisAnimationManager" preserve="all" />
@@ -476,9 +496,11 @@
     <type fullname="TournamentSummaryPanel" preserve="all" />
     <type fullname="TournamentTopLayer" preserve="all" />
     <type fullname="TransformOffset" preserve="all" />
+    <type fullname="TreasureIslandCategorySummary" preserve="all" />
     <type fullname="TriStateButton" preserve="all" />
     <type fullname="TurtleClickScript" preserve="all" />
     <type fullname="TurtleIslandWorldHandler" preserve="all" />
+    <type fullname="TutorialLayer" preserve="all" />
     <type fullname="UIGameObjFitter" preserve="all" />
     <type fullname="UIHandler" preserve="all" />
     <type fullname="UIRefData" preserve="all" />
@@ -518,65 +540,70 @@
     <type fullname="WordTreeManager" preserve="all" />
     <type fullname="WrongAnswerEffect" preserve="all" />
     <type fullname="YesNoPopup" preserve="all" />
+    <type fullname="ActivityInfo" preserve="nothing" serialized="true" />
+    <type fullname="Metadata" preserve="nothing" serialized="true" />
+    <type fullname="Word" preserve="nothing" serialized="true" />
+    <type fullname="Wordsmetadatum" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.Hint" preserve="nothing" serialized="true" />
     <type fullname="CategoryGroupInfo" preserve="nothing" serialized="true" />
     <type fullname="Civilization" preserve="nothing" serialized="true" />
     <type fullname="IslandGroup" preserve="nothing" serialized="true" />
     <type fullname="ObjectGroup" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.Hint" preserve="nothing" serialized="true" />
-    <type fullname="AnimatorInfo" preserve="nothing" serialized="true" />
-    <type fullname="CharacterData" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.gameinfra.controls.MultiValueToggleOption" preserve="nothing" serialized="true" />
-    <type fullname="SceneNavigator/SceneId" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.LevelBaseData" preserve="nothing" serialized="true" />
-    <type fullname="ActivityInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.SubTaskAnswer" preserve="nothing" serialized="true" />
-    <type fullname="ExamLocalStringByName" preserve="nothing" serialized="true" />
-    <type fullname="ExamScoreData" preserve="nothing" serialized="true" />
-    <type fullname="YouWinTextByScore" preserve="nothing" serialized="true" />
-    <type fullname="ItemCostInfo" preserve="nothing" serialized="true" />
-    <type fullname="LocalizedSpriteInfo" preserve="nothing" serialized="true" />
-    <type fullname="SpriteInfo" preserve="nothing" serialized="true" />
+    <type fullname="ThirdActivityInfo" preserve="nothing" serialized="true" />
+    <type fullname="IndieStudio.EnglishTracingBook.Game.ShapesManager/Shape" preserve="nothing" serialized="true" />
+    <type fullname="LetterAsset" preserve="nothing" serialized="true" />
+    <type fullname="LetterDisplayColors" preserve="nothing" serialized="true" />
+    <type fullname="LettersDisplaySetting" preserve="nothing" serialized="true" />
+    <type fullname="ShapeOptions" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.LettersSliderTracingRound/TexturesData" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/AuthorizationCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/AvailabilityCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/ErrorCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/ResultCallback" preserve="nothing" serialized="true" />
     <type fullname="KKSpeech.SpeechRecognizerListener/SupportedLanguagesCallback" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.gameinfra.Dialogue.DialogueEntryConfig" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.gameinfra.Dialogue.DialogueEntryInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.gameinfra.Dialogue.DialogueInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.gameinfra.Dialogue.DialogueRole" preserve="nothing" serialized="true" />
-    <type fullname="NamedSound" preserve="nothing" serialized="true" />
-    <type fullname="CategoryColorsInfo" preserve="nothing" serialized="true" />
-    <type fullname="ColorInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.Feedback.ResultDef" preserve="nothing" serialized="true" />
-    <type fullname="ThirdActivityInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.ActivityData" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.ActivityGeoData" preserve="nothing" serialized="true" />
-    <type fullname="EnglishLevelDescription" preserve="nothing" serialized="true" />
-    <type fullname="GameInfra.ParentControll/NumbWord" preserve="nothing" serialized="true" />
-    <type fullname="LocalizationAssets" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.controls.MultiValueToggleOption" preserve="nothing" serialized="true" />
     <type fullname="AnimalDescriptionByLocal" preserve="nothing" serialized="true" />
     <type fullname="AnimalInfo" preserve="nothing" serialized="true" />
     <type fullname="UIRefData/UITextElement" preserve="nothing" serialized="true" />
-    <type fullname="Metadata" preserve="nothing" serialized="true" />
-    <type fullname="Word" preserve="nothing" serialized="true" />
-    <type fullname="Wordsmetadatum" preserve="nothing" serialized="true" />
+    <type fullname="CategoryColorsInfo" preserve="nothing" serialized="true" />
+    <type fullname="ColorInfo" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Frogger.FroggerGameManager/GameModeInstruction" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.Round/InstructionData" preserve="nothing" serialized="true" />
+    <type fullname="TracingSentenceData" preserve="nothing" serialized="true" />
+    <type fullname="SoundRepositroy/NamedSound" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.LetterRowData" preserve="nothing" serialized="true" />
+    <type fullname="SceneNavigator/SceneId" preserve="nothing" serialized="true" />
+    <type fullname="TutorialStep" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.AIModel" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.CharacterAssets" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueEntryConfig" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.Prompts" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.TextPricing" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.TreasureIsland.CategoryData" preserve="nothing" serialized="true" />
+    <type fullname="ItemCostInfo" preserve="nothing" serialized="true" />
+    <type fullname="LocalizedSpriteInfo" preserve="nothing" serialized="true" />
+    <type fullname="SpriteInfo" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.SubTaskAnswer" preserve="nothing" serialized="true" />
+    <type fullname="NamedSound" preserve="nothing" serialized="true" />
+    <type fullname="AnimatorInfo" preserve="nothing" serialized="true" />
+    <type fullname="CharacterData" preserve="nothing" serialized="true" />
+    <type fullname="ExamLocalStringByName" preserve="nothing" serialized="true" />
+    <type fullname="ExamScoreData" preserve="nothing" serialized="true" />
+    <type fullname="YouWinTextByScore" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueEntryInfo" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueInfo" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.gameinfra.Dialogue.DialogueRole" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.Pipes.PipePathStructure" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.Feedback.ResultDef" preserve="nothing" serialized="true" />
+    <type fullname="EnglishLevelDescription" preserve="nothing" serialized="true" />
+    <type fullname="GameInfra.ParentControll/NumbWord" preserve="nothing" serialized="true" />
+    <type fullname="LocalizationAssets" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.ActivityData" preserve="nothing" serialized="true" />
+    <type fullname="com.kideo.learn.english.ActivityGeoData" preserve="nothing" serialized="true" />
     <type fullname="com.kideo.learn.english.SearchGameManager/CustomSpritesSizes" preserve="nothing" serialized="true" />
     <type fullname="CutSceneData" preserve="nothing" serialized="true" />
     <type fullname="DialogueEntryInfo" preserve="nothing" serialized="true" />
     <type fullname="DialogueInfo" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.Round/InstructionData" preserve="nothing" serialized="true" />
-    <type fullname="IndieStudio.EnglishTracingBook.Game.ShapesManager/Shape" preserve="nothing" serialized="true" />
-    <type fullname="LetterDisplayColors" preserve="nothing" serialized="true" />
-    <type fullname="ShapeOptions" preserve="nothing" serialized="true" />
-    <type fullname="TracingSentenceData" preserve="nothing" serialized="true" />
-    <type fullname="LetterAsset" preserve="nothing" serialized="true" />
-    <type fullname="LettersDisplaySetting" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.LettersSliderTracingRound/TexturesData" preserve="nothing" serialized="true" />
-    <type fullname="SoundRepositroy/NamedSound" preserve="nothing" serialized="true" />
-    <type fullname="com.kideo.learn.english.LetterRowData" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="FrostweepGames.Plugins.WebGLFileBrowser.Examples.WebGlFileBrowserHandler" preserve="all" />
@@ -631,6 +658,10 @@
   <assembly fullname="Febucci.TextAnimator.TMP.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="Febucci.UI.TextAnimator_TMP" preserve="all" />
   </assembly>
+  <assembly fullname="Oculus.LipSync, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="OVRLipSyncContext" preserve="all" />
+    <type fullname="OVRLipSyncContextTextureFlip" preserve="all" />
+  </assembly>
   <assembly fullname="PathCreator, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="PathCreation.PathCreator" preserve="all" />
     <type fullname="PathCreation.BezierPath" preserve="nothing" serialized="true" />
@@ -639,6 +670,15 @@
   <assembly fullname="RTLTMPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="RTLTMPro.RTLTextMeshPro" preserve="all" />
     <type fullname="RTLTMPro.RTLTextMeshPro3D" preserve="all" />
+  </assembly>
+  <assembly fullname="uLipSync.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="uLipSync.Profile" preserve="all" />
+    <type fullname="uLipSync.uLipSync" preserve="all" />
+    <type fullname="uLipSync.uLipSyncTexture" preserve="all" />
+    <type fullname="uLipSync.LipSyncUpdateEvent" preserve="nothing" serialized="true" />
+    <type fullname="uLipSync.MfccCalibrationData" preserve="nothing" serialized="true" />
+    <type fullname="uLipSync.MfccData" preserve="nothing" serialized="true" />
+    <type fullname="uLipSync.uLipSyncTexture/TextureInfo" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.2D.Animation.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.Animation.SkeletonAsset" preserve="all" />
@@ -660,10 +700,10 @@
   <assembly fullname="Unity.2D.SpriteShape.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.U2D.SpriteShape" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteShapeController" preserve="all" />
-    <type fullname="UnityEngine.U2D.Spline" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.U2D.SplineControlPoint" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.U2D.AngleRange" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.U2D.CornerSprite" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.Spline" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.SplineControlPoint" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -679,14 +719,14 @@
     <type fullname="UnityEngine.Localization.LocalizedString" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.TableEntryReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.LocalizedAudioClip" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Metadata.AssetTypeMetadata" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Localization.LocalizedAudioClip" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.SmartFormat.PersistentVariables.StringVariable" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.SmartFormat.PersistentVariables.VariableNameValuePair" preserve="nothing" serialized="true" />
   </assembly>
@@ -721,9 +761,6 @@
     <type fullname="TMPro.TMP_InputField/SubmitEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TextSelectionEvent" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_InputField/TouchScreenKeyboardEvent" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
-    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
     <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
     <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
@@ -735,6 +772,9 @@
     <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteCharacter" preserve="nothing" serialized="true" />
     <type fullname="TMPro.TMP_SpriteGlyph" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/DropdownEvent" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionData" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Dropdown/OptionDataList" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Timeline, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Timeline.ActivationPlayableAsset" preserve="all" />
@@ -772,6 +812,7 @@
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
@@ -788,21 +829,21 @@
     <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
     <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
-    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.U2D.SpriteBone" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[CharacterAnimatorEvents/EventName]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Int32]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`2[System.String,System.String]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[PuzzlePiece]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`2[System.String,UnityEngine.Vector3]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.GameObject]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[System.String]" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.U2D.SpriteBone" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.Events.UnityEvent`1[PuzzlePiece]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.String]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[CharacterAnimatorEvents/EventName]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[UnityEngine.AudioClip]" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.DirectorModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Playables.PlayableDirector" preserve="all" />
@@ -864,15 +905,15 @@
     <type fullname="UnityEngine.UI.Toggle" preserve="all" />
     <type fullname="UnityEngine.UI.ToggleGroup" preserve="all" />
     <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/Entry" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.EventSystems.EventTrigger/TriggerEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
